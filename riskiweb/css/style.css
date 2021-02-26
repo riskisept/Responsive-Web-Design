@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #464646;
+}
+
+.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 16px !important;
+    display: unset !important;
+    padding: 0 0 5px 0 !important;
+}
+
+.navbar-brand img {
+    width: 140px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 15px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: 0 !important;
+    padding: initial !important;
+}
+
+.active-home {
+    border-bottom: 1px solid #fff;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.text h1 {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.text p {
+    text-align: center;
+    color: #464646;
+    margin-top: 2%;
+}
+
+.galery-box {
+    margin-top: 5%;
+    padding: 0 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.galery-box img {
+    width: 300px;
+    margin-top: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.galery-box h6 {
+    text-align: center;
+}
+
+.galery-box p {
+    text-align: justify;
+    padding: 4px;
+    margin-top: 4px;
+}
