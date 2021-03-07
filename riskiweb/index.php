@@ -41,6 +41,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Farming Guide</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="formlogin/formlogin.html">Login</a>
+            </li>
           </ul>
         </div>
       </nav>
