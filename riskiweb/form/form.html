@@ -1,50 +1,89 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Register</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="../form/formstyle.css">
 </head>
+
 <body>
-    <div class="registration-form">
-        <form>
-            <div class="form-icon">
-                <span><i class="icon icon-user"></i></span>
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control item" id="username" placeholder="USERNAME">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control item" id="password" placeholder="PASSWORD">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control item" id="email" placeholder="EMAIL">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control item" id="birth-date" placeholder="DD/MM/YYYY">
-            </div>
-            <div class="form-group">
-                <button type="button" class="btn btn-block create-account">Create Account</button>
-            </div>
-            <div class="tittle">
-                <p>Already have account?<a href="../formlogin/formlogin.html"> Login</a></p>
-            </div>
-        </form>
-        <div class="social-media">
-            <h5>Sign up with</h5>
-            <div class="social-icons">
-                <a href="#"><i class="icon-social-facebook" title="Facebook"></i></a>
-                <a href="#"><i class="icon-social-google" title="Google"></i></a>
-                <a href="#"><i class="icon-social-twitter" title="Twitter"></i></a>
+    <section class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="../assets/a2.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav text-right ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link active-home" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Character</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Farming Guide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../formlogin/formlogin.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="registration-form">
+            <form>
+                <div class="form-icon">
+                    <span><i class="icon icon-user"></i></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control item" id="username" placeholder="USERNAME">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control item" id="password" placeholder="PASSWORD">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control item" id="email" placeholder="EMAIL">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control item" id="birth-date" placeholder="DD/MM/YYYY">
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-block create-account">Create Account</button>
+                </div>
+                <div class="tittle">
+                    <p>Already have account?<a href="../formlogin/formlogin.html"> Login</a></p>
+                </div>
+            </form>
+            <div class="social-media">
+                <h5>Sign up with</h5>
+                <div class="social-icons">
+                    <a href="#"><i class="icon-social-facebook" title="Facebook"></i></a>
+                    <a href="#"><i class="icon-social-google" title="Google"></i></a>
+                    <a href="#"><i class="icon-social-twitter" title="Twitter"></i></a>
+                </div>
             </div>
         </div>
-    </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-    <script src="../form/app.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+        <script src="../form/app.js"></script>
+    </section>
 </body>
+
 </html>

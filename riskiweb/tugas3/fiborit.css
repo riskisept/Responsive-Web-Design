@@ -1,0 +1,16 @@
+.header {
+    background: #484848;
+}
+
+.isi {
+    padding: 10px;
+}
+
+.nav-item a {
+    padding: 10px !important;
+    color: #ffff;
+}
+
+.hasil {
+    margin: 10px;
+}
