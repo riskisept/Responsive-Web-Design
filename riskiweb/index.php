@@ -39,7 +39,7 @@
               <a class="nav-link" href="#">Weapons</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Farming Guide</a>
+              <a class="nav-link" href="../riskiweb/tugas3/aritmatika.php">Tugas 3</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="formlogin/formlogin.html">Login</a>
@@ -165,13 +165,13 @@
 
   <section>
     <footer class="bg-dark text-white">
-    <div class="container">
-      <div class="row text-center pt-3">
-        <div class="col">
-          <p>Copyright 2021</p>
+      <div class="container">
+        <div class="row text-center pt-3">
+          <div class="col">
+            <p>Copyright 2021</p>
+          </div>
         </div>
       </div>
-    </div>
     </footer>
   </section>
 </body>
